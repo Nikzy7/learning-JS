@@ -14,3 +14,6 @@ console.log("Discount percentage is : " + discountPercent);
 displayDiscountPercentage = Math.round(discountPercent);
 
 console.log(displayDiscountPercentage + "% off");
+
+// datatype check
+console.log(typeof discountPercent)
