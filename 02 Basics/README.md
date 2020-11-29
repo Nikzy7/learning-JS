@@ -1,3 +1,4 @@
+# Precedence Table for JS <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence">(Copied from Here)</a>
 <table>
  <tbody>
   <tr>
