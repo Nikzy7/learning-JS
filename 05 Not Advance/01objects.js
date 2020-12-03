@@ -17,7 +17,14 @@ var apoorv = new User("apoorv",2);
 var hitesh = new User("hitesh",1);
 // console.log(hitesh);
 
+/*
 apoorv.getCourseCount();
 hitesh.getCourseCount();
 apoorv.getFirstName();
 hitesh.getFirstName();
+*/
+
+// to check if the object has property
+if (hitesh.hasOwnProperty("firstName")){
+    hitesh.getFirstName();
+}
