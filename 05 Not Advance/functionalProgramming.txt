@@ -1,0 +1,55 @@
+++++++++++++++++
+video URL : 
+https://youtu.be/dAPL7MQGjyM
+++++++++++++++++
+
+
+
+let score = 456;
+
+function addBonus(){
+    score = score + 45;
+    return score;
+}
+
+// functional programming
+// keep your data and function totally separate
+
+function addBonus(score){
+    return score + 45;
+}
+
+
+
+
+state change ++++++++++++++++
+// its okay to redeclare variables
+
+// old way
+apoorv = "hey"
+apoorv = "hey there"
+apoorv = "hey there, everyone"
+
+// funcProg way
+apoorv = "hey"
+apoorv2 = "hey there"
+apoorv3 = "hey there, everyone"
+
+
+
+
+++++++++++++++++
+functions are treated as first class citizens
+
+// function should be able to be stored as variable
+// and thrown around as a variable in parameters 
+
+const h = 45;
+const name = "apoorv"
+
+// like this
+const addScore = function() {.......}
+
+// sayHello(function(){.....}){
+    return function(){.......};
+}
