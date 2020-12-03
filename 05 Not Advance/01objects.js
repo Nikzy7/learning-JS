@@ -7,8 +7,17 @@ var User = function(firstName,courseCount) {
     };
 };
 
+User.prototype.getFirstName = function() {
+    console.log(`your firstname is ${this.firstName}`);
+}
+
 var apoorv = new User("apoorv",2);
-console.log(apoorv);
+// console.log(apoorv);
 
 var hitesh = new User("hitesh",1);
-console.log(hitesh);
+// console.log(hitesh);
+
+apoorv.getCourseCount();
+hitesh.getCourseCount();
+apoorv.getFirstName();
+hitesh.getFirstName();
