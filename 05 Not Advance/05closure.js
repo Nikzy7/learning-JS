@@ -22,3 +22,6 @@ var ans = doAddition(6);
 console.log(ans(5));
 
 console.log(doAddition(7)(5));
+
+// multiple paranthesis is called curring
+// doAddition()()();
