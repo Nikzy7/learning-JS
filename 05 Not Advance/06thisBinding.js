@@ -32,4 +32,3 @@ djInfo();
 
 // calls it
 apoorv.getInfo.call(dj);
-
